@@ -1,0 +1,33 @@
+# Diretórios de build e cache do Zig
+.zig-cache/
+zig-out/
+
+# Diretórios de build do CMake (se estiver usando CMake e Ninja)
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Arquivos gerados pelo Ninja
+*.ninja_log
+*.ninja_deps
+
+# Binários e artefatos de compilação
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+
+# Arquivos temporários, logs e similares
+*.log
+
+# Arquivos de sistema
+.DS_Store
+
+# Configurações de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
